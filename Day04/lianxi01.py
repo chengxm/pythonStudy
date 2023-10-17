@@ -14,7 +14,7 @@ for x in range(2, end + 1):
     if value % x == 0:
         is_prime = False
         break
-if is_prime and num != 1:
+if is_prime and value != 1:
     print("%d是素数" % value)
 else: 
      print("%d不是素数" % value)
